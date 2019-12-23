@@ -1,0 +1,138 @@
+
+
+body{
+    line-height: 1.6;
+    margin: 0px;
+    color: black;
+    font-weight: 400;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+#title{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    min-height: 100vh;
+    background-color: white;
+}
+.div-1-text{
+    order: 1;
+    align-self: center;
+}
+.div-1-text-quote{
+    letter-spacing: 7px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.div-1-img{
+    order: 2;
+    align-self: center;
+    justify-content: center;
+}
+#image{
+    width: 80%;
+    height: auto;
+    float: right;
+    /* max-width: none; */
+}
+
+.div-2{
+    margin: auto;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    max-width: 90vw;
+    min-height: 85vh;
+    align-content: center;
+}
+.div-2-playbutton{
+    display: flex;
+    align-items: center;
+    min-width: 400px;
+    max-width: 50vw;
+    margin: auto;
+    max-height: 100vh;
+    min-height: 300px;
+}
+.div-2-timeline{
+    display: flex;
+    align-items: center;
+    max-width: 50%;
+}
+.des{
+    display: inline;
+    opacity: 0.6;
+    /* width : 90%; */
+}
+.div-2-timeline-year{
+    display: flex;
+    flex-direction: column;
+    max-width: 5    0vw;
+
+}
+.div-2-button{
+    margin-left: auto;
+    margin-right: auto;
+}
+.text{
+    padding: 1%;
+}
+hr{
+    transform: scale(0.9);
+}
+
+.Biograpy{
+    color: white;
+}
+
+.Biographyassay{
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;	
+
+}
+
+.Biograpy-heading{
+    margin-bottom: 10%;
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: -1px;
+    font-family: 'Lora', serif;
+}
+.Biograpy-text{
+    font-family: 'Lora', serif;
+}
+.tribute-links{
+    text-align: end;
+    color: white;
+}
+
+footer{
+    color : white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a::hover{
+    color:blue;
+    font-weight: bolder;
+}
+/* p.cite{
+    font-size: 15px;
+} */
